@@ -1,6 +1,6 @@
 # Bank Management System (C++)
 
-A **console-based Bank Management System** developed in C++ that simulates real-world banking operations such as managing client accounts, deposits, withdrawals, and balance inquiries using file-based persistence.
+A **console-based Bank Management System** developed in C++ that simulates core banking workflows for learning and demonstration purposes such as managing client accounts, deposits, withdrawals, and balance inquiries using file-based persistence.
 
 ## 🚀 Features
 - 🧾 Client account management
@@ -20,7 +20,7 @@ A **console-based Bank Management System** developed in C++ that simulates real-
 - **Compiler:** GCC / Clang / MSVC
 
 ## 📦 Build & Run
-Compile the project using any C++ compiler:
+Compile and run using any C++ compiler supporting C++11 or later:
 
 ```bash
 g++ main.cpp -o bank-system -std=c++11
@@ -52,6 +52,21 @@ AccountNumber#//#PIN#//#FullName#//#Balance
 - File handling and data persistence
 - User interaction and input validation
 - Building a complete console-based system
+
+---
+
+## 📌 Project Scope
+This project focuses on:
+- Core banking logic
+- File-based persistence
+- Console interaction
+
+It does NOT aim to be:
+- A production banking system
+- A secure financial application
+- A replacement for database-driven systems
+
+---
 
 ## 🤝 Contribution
 Feel free to fork this repository and enhance its features.
